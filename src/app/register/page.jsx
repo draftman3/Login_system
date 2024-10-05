@@ -45,7 +45,8 @@ function RegisterPage() {
               </div>
                 <input onChange={(e) => setEmail(e.target.value)} className="block p-2 rounded-full w-full border border-gray-300" type="email" placeholder='Email' />
                 <input onChange={(e) => setPassword(e.target.value)} className="block p-2 rounded-full w-full border border-gray-300 " type="password" placeholder='Password' />
-                <button type='submit' className='bg-black text-white font-semibold px-4 py-2 mt-6 rounded-full w-full hover:bg-white hover:text-black hover:transition-all hover:ease-in-out '>Sign Up</button>
+                <button type='submit' className='bg-black text-white font-semibold px-4 py-2 mt-6 rounded-full w-full hover:bg-white hover:text-black hover:transition-all hover:ease-in-out'>Sign Up</button>
+                <div className="border-b border-gray-300 mb-4"></div>
             </form>
           </div>
         </div>
